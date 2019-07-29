@@ -38,8 +38,8 @@ public class MyQueue {
         }
         // if not element on queue
         else if (getSize() == 0) {
-            front++;
-            end++;
+            front=0;
+            end=0;
             this.data[end] = item;
         }
         // if there are items
